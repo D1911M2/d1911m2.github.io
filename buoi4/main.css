@@ -1,0 +1,28 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	padding: 0;
+	margin: 0;
+}
+h1{
+	font-size: 70px !important;
+}
+.dong1{
+	height: 500px;
+}
+.cot{
+	padding:50px;
+	
+}
+@media screen and (max-width:375px)
+{
+	h1{
+		color: aliceblue;
+		font-size: 16px !important;
+}
+}
+@media screen and (min-width:375px) and (max-width:996px){
+	h1{
+		color: red;
+	}
+}
